@@ -23,14 +23,14 @@ As propriedades e tipos de valores para cada propriedade desse objeto devem ser:
 - `andando` - Boolean - recebe "falso" por padrão
 - `caminhouQuantosMetros` - Number - recebe "zero" por padrão
 */
-pessoa.nome = "Ana"
-pessoa.sobrenome = "Vitoria"
-pessoa.sexo = "F"
-pessoa.idade = -2;
+pessoa.nome = "João"
+pessoa.sobrenome = "Victor"
+pessoa.sexo = "M"
+pessoa.idade = 21;
 pessoa.altura = 1.78
 pessoa.peso = 62 
 pessoa.andando = false
-pessoa.caminhouQuantosMetros = -239
+pessoa.caminhouQuantosMetros = 0
 
 
 /*
@@ -204,6 +204,6 @@ function apresentacao () {
         } if (pessoa.caminhouQuantosMetros == 1) {
             umMetro = "metro"
         } 
-   document.write(`Olá eu sou ${genero} ${pessoa.nome} ${pessoa.sobrenome} , tenho ${pessoa.idade} ${umIdade}, com ${pessoa.altura} de altura, meu peso é ${pessoa.peso}Kg e só hoje, eu já caminhei ${pessoa.caminhouQuantosMetros} ${umMetro}.` )
+   document.write(`Olá eu sou ${genero} ${pessoa.nome} ${pessoa.sobrenome}, tenho ${pessoa.idade} ${umIdade}, com ${pessoa.altura} de altura, meu peso é ${pessoa.peso}Kg e só hoje, eu já caminhei ${pessoa.caminhouQuantosMetros} ${umMetro}.` )
 }
 apresentacao()
