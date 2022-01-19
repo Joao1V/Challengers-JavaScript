@@ -134,7 +134,7 @@ mudarCor("Cinza")
 obterCor() // Cinza
 
 // Mude a cor do carro para verde musgo.
-mudarCor("Verde musgo") 
+mudarCor("Verde musgo")
 
 // E agora, qual a cor do carro?
 obterCor() //verde musgo
