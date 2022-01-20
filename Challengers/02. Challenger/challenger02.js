@@ -5,7 +5,7 @@ function soma (n1, n2) {
 }
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-let somarDenovo = soma(2,3) + 5 
+let somarDenovo = soma(2,3) + 5
 
 // Qual o valor atualizado dessa variável?
 
