@@ -4,7 +4,7 @@ var soma = (Number(15+8))
 
 soma += 1
 
-soma *= 3
+soma *= 3 
 
 console.log(soma)
 
